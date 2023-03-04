@@ -1,0 +1,89 @@
+.dish-pic{
+    width: 266.67px;
+    height: 150px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-image: url("potato.webp");
+    border: 1px solid black;
+}
+.lunch .dish:nth-child(1) .dish-pic{
+    background-image: url("potato.webp");
+}
+.lunch .dish:nth-child(2) .dish-pic{
+    background-image: url("indian.jpg");
+}
+.lunch .dish:nth-child(3) .dish-pic{
+    background-image: url("l-pack.jpg");
+}
+.lunch .dish:nth-child(4) .dish-pic{
+    background-image: url("chinese.webp");
+}
+.lunch .dish:nth-child(5) .dish-pic{
+    background-image: url("pizza.jpg");
+}
+.lunch .dish:nth-child(6) .dish-pic{
+    background-image: url("steak.jpg");
+}
+.dish{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.dish-txt{
+    text-align: start;
+    padding: 0 10px;
+}
+.dish-txt h3{
+    cursor: pointer;
+    transition: .4s ease;
+    margin-bottom: 10px;
+}
+.dish-txt h3:hover{
+    color: #F94A29;
+    
+}
+.active-menu{
+    display: grid !important;
+}
+
+.breakfest .dish:nth-child(1) .dish-pic{
+    background-image: url("pancake.jpg");
+}
+.breakfest .dish:nth-child(2) .dish-pic{
+    background-image: url("eggs.jpg");
+}
+.breakfest .dish:nth-child(3) .dish-pic{
+    background-image: url("Gingerbread\ Granola.webp");
+}
+.breakfest .dish:nth-child(4) .dish-pic{
+    background-image: url("Cinnamon\ Rolls.webp");
+}
+.breakfest .dish:nth-child(5) .dish-pic{
+    background-image: url("Smoothie.webp");
+}
+.breakfest .dish:nth-child(6) .dish-pic{
+    background-image: url("Steak\ &\ Eggs\ Breakfast.webp");
+}
+
+
+
+
+.diner .dish:nth-child(1) .dish-pic{
+    background-image: url("soup.jpeg");
+}
+.diner .dish:nth-child(2) .dish-pic{
+    background-image: url("pasta.jpeg");
+}
+.diner .dish:nth-child(3) .dish-pic{
+    background-image: url("balls.jpg");
+}
+.diner .dish:nth-child(4) .dish-pic{
+    background-image: url("rice.jpg");
+}
+.diner .dish:nth-child(5) .dish-pic{
+    background-image: url("fries.jpg");
+}
+.diner .dish:nth-child(6) .dish-pic{
+    background-image: url("chiken.jpeg");
+}

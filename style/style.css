@@ -11,6 +11,11 @@
     font-family: poppins, sans-serif;
     outline: none;
 }
+.link-reset{
+    text-decoration: none;
+    transition: .4s ease;
+    color: black;
+}
 .pd-5{
    padding:50px 0px;
    margin: 50px 0;
@@ -50,7 +55,7 @@
     letter-spacing: 1px;
     transition: .3s ease;
 }
-.nav ul a:hover{
+.nav ul a:hover,.menu a:hover{
     background-color: #fc3912;
     color: black;
 }
@@ -227,6 +232,7 @@ transform: scale(0);
 @media (max-width:768px) {
     .chef{
         flex-direction: column;
+        margin: 5% 1%;
     }
     .social-c {
         flex-direction: row;
@@ -239,12 +245,38 @@ transform: scale(0);
     .desc-food{
         display: block;
         width: 250px;
+        margin-top: 20px;
     }
     .desc-food h1{
         color: #fc3912;
         font-size: 30px;
+        margin-bottom: 10px;
     }
     .desc-food p{
         font-size: 25px;
     }
+    .chef-card{
+        margin: 10px 0;
+    }
+}
+/* Menu content */
+.menu{
+    background-color: #ebeaf0;
+    text-align: center;
+    padding: 10px 0;
+}
+.menu a{
+    display: inline-block;   
+    margin: 10px 40px;
+    width: 220px;
+    padding: 10px 0;
+    background-color: white;
+    text-transform: uppercase;
+    font-size: 20px;
+}
+.dishes-container{
+    display: none;
+    grid-template-columns: repeat(auto-fill,minmax(400px,1fr));
+    grid-gap: 10px;
+    margin: 30px 0;
 }

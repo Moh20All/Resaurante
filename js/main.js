@@ -1,7 +1,7 @@
 let myElem = document.getElementById("srb");
 let cas = 0;
 let list = document.querySelectorAll('.nav');
-console.log(list[0].classList.contains("active-ls"));
+let menu = document.querySelectorAll('.dishes-container');
 
 function appear() {
 
@@ -18,4 +18,20 @@ function listappear() {
     } else {
         list[0].classList.add("active-ls");
     }
+}
+
+function menu1() {
+    menu[0].classList.add('active-menu');
+    menu[1].classList.remove('active-menu')
+    menu[2].classList.remove('active-menu')
+}
+function menu2() {
+    menu[1].classList.add('active-menu');
+    menu[0].classList.remove('active-menu')
+    menu[2].classList.remove('active-menu')
+}
+function menu3() {
+    menu[2].classList.add('active-menu');
+    menu[1].classList.remove('active-menu')
+    menu[0].classList.remove('active-menu')
 }
