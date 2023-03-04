@@ -258,6 +258,14 @@ transform: scale(0);
     .chef-card{
         margin: 10px 0;
     }
+    .dishes-container{
+        width: 350px;
+        display: block;
+    }
+    .dish{
+        max-width: 370px;
+        margin-left: 10px;
+    }
 }
 /* Menu content */
 .menu{
